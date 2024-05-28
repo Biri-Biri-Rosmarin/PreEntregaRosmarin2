@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "MetalMania";
+    src: url(../fonts/MetalMania-Regular.ttf);
+}
+
+* {
+    font-family: "MetalMania";
+    color: aliceblue;
+}
+
+h1{
+  font-size: 20px;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 15% 1fr auto; 
+    grid-template-areas:
+      "header header"
+      "nav main"
+      "footer footer";
+      min-height: 100vh;
+      column-gap: 2px ;
+      row-gap: 2px ;
+      background-color: red;
+  }
+
+    .header__logo{
+    width: 90px;
+    height: 90px;
+    z-index: 100000000000000000000px;
+  }
+
+  .header {
+    grid-area: header;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .nav {
+    grid-area: nav;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  a:hover{
+    color: red;
+  }
+  
+  .main {
+    grid-area: main;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .discografia{
+    display: flex;
+    flex-direction: column;
+  }
+
+  iframe{
+    width: 600px;
+    height: 300px;
+  }
+
+  #bandacompleta{
+    height: 200px;
+    width: 350px;
+  }
+
+  #juli{
+    height: 300px ;
+    width: 200px ;
+  }
+  
+  .footer {
+    grid-area: footer;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:baseline;
+  }
+  
+  @media  screen and (max-width: 760px){
+    .container{
+      grid-template-areas:
+      "header header"
+      "nav nav"
+      "main main"
+      "footer footer";
+      min-height: 1000px;
+    }
+    
+  }
