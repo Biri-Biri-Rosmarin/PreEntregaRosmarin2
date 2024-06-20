@@ -58,6 +58,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    height: 1000px;
   }
 
   a:hover{
@@ -70,6 +71,7 @@ body{
     padding: 20px;
     display: flex;
     flex-direction: row;
+    height: 1000px;
 
   }
 

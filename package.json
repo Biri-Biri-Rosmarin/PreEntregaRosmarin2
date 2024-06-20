@@ -1,0 +1,25 @@
+{
+  "name": "proyect-p---copia",
+  "version": "1.0.0",
+  "description": "implementacion de sass",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Biri-Biri-Rosmarin/PreEntregaRosmarin2.git"
+  },
+  "keywords": [
+    "sass",
+    "scss",
+    "css",
+    "procesador"
+  ],
+  "author": "Bruno Elias Rosmarin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Biri-Biri-Rosmarin/PreEntregaRosmarin2/issues"
+  },
+  "homepage": "https://github.com/Biri-Biri-Rosmarin/PreEntregaRosmarin2#readme"
+}
